@@ -9,8 +9,8 @@
 #SBATCH --error=pbrt.%J.err
 # On failure, requeue for another try
 #SBATCH --requeue
-# maximum job time in D-HH:MM
-#SBATCH --time=01:00
+# maximum job time in HH:MM:SS
+#SBATCH --time=10:00:00
 # maximum memory
 #SBATCH --mem-per-cpu=8192
 # run a single task
